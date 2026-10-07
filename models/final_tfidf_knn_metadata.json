@@ -1,0 +1,21 @@
+{
+    "model": "KNN",
+    "representation": "TF-IDF Ticket Description",
+    "n_neighbors": 3,
+    "metric": "cosine",
+    "weights": "uniform",
+    "ngram_range": [
+        1,
+        2
+    ],
+    "min_df": 1,
+    "cv_accuracy": 0.2597785977859779,
+    "final_holdout_accuracy": 0.24970484061393153,
+    "target": "Ticket Priority",
+    "classes": [
+        "Critical",
+        "High",
+        "Low",
+        "Medium"
+    ]
+}
